@@ -1,36 +1,12 @@
-Платформа для проведения игр CTF в формате Attack-defense
+# Platform for CTF games in Attack-defense format
 =========================================================
-
-
-Установка
+## Installation
 ---------
-Автоматизированная установка производится на сервер с операционной системой debian или ubuntu.
+Automated installation is performed on a server with the operating system debian or ubuntu.
 
-Для установки необходимо перейти в рабочий каталог проекта и запустить install.sh
+To install, you must go to the working directory of the project and run install.sh
 
     ./install.sh
-    
-Установка на другие платформы производится вручную по аналогии.
-
-Запуск
-------
-Система состоит из отдельных модулей с единой точкой входа.
-Для начала необходимо проинициализировать
-
-    python3 main.py init
-    
-Для запуска модулей необходимо выполнить команды:
-
-    python3 main.py scoreboard                запуск таблицы результатов
-    python3 main.py flags                     запуск приемки флагов
-    python3 main.py start                     запуск master-сервера для чекеров (посылает информацию в очередь)
-    python3 main.py start --slave             запуск slave-сервера 
-
-English version (sea-kg)
-========================
-# CTF-Attack-Defense System
-
-The platform for the CTF-competition (Attack-Defense)
 
 ## Requirements
 
