@@ -1,7 +1,22 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+.idea/*
+__pycache__/*
 *.py[cod]
 *$py.class
+
+# From KevaTeam .gitignore
+classes/__pycache__/*
+checkers/*
+config/main.py
+*.pyc
+report/report.aux
+*.toc
+*.tex~
+report/report.*
+!report/report.pdf
+*.log
+tmp.config.json
+starter_allinone.d/*
 
 # C extensions
 *.so
